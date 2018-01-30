@@ -5,20 +5,56 @@
     padding:20;
     background: #D2404D;
     transition: all 0.3s ease;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
+  .navbar-title {
+    color:white; 
+    font-size:40; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bolder;
+  }
+
+  .banner-title {
+    color:white; 
+    font-size:70; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bolder;
+  }
+
   .banner {
-    height:90vh;
+    height:88vh;
     background-color: #D2404D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
   }
   
+  .store {
+    width: 30vh;
+    height: 8vh;
+    margin:15
+  }
+  
+  .content {
+    height:100vh;
+    background-color: #EDEDED;
+  }
+
+  .store-logos {
+    display: flex;
+    justify-content: center;
+
+  }
   /* Logo */
   .logo {
-    height: 50px;
+    height: 45px;
     margin-right:10px;
   }
 
