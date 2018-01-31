@@ -21,10 +21,27 @@
 
   .banner-title {
     color:white; 
-    font-size:70; 
+    font-size:4.5em; 
     margin:0;
     font-family: 'Nunito';
     font-weight: bolder;
+    font-style: italic;
+  }
+
+  .banner-title-mobile {
+    color:white; 
+    font-size:1.5em; 
+    font-family: 'Nunito';
+    font-weight: bolder;
+    font-style: italic;
+  }
+  .banner-mobile {
+    color:white; 
+    font-size:2em; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    font-style: italic;
   }
 
   .banner {
@@ -35,12 +52,29 @@
     justify-content: space-around;
     align-items: center
   }
+
+  .banner-mobile {
+    height:88vh;
+    background-color: #D2404D;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+  }
   
   .store {
     width: 30vh;
     height: 8vh;
     margin:15
   }
+
+  .store-mobile {
+    width:20vh;
+    height: 5.333vh;
+    margin:15
+  }
+  
   
   .content {
     height:100vh;
@@ -50,7 +84,6 @@
   .store-logos {
     display: flex;
     justify-content: center;
-
   }
   /* Logo */
   .logo {
