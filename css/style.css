@@ -79,6 +79,21 @@
   .content {
     height:100vh;
     background-color: #EDEDED;
+    justify-content:center;
+    padding-right: 20px;
+    padding-left: 20px; 
+    margin-right: auto; 
+    margin-left: auto;
+    padding-top:30;
+  }
+
+  .content-title {
+    color:#D2404D; 
+    font-size:3em; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: center;
   }
 
   .store-logos {
