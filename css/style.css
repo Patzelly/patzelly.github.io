@@ -131,6 +131,15 @@
     text-align: center;
   }
 
+  .oui-mobile {
+    color:#D2404D; 
+    font-size:10em; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: center;
+  }
+
   .title-big-texte {
     color:#D2404D; 
     font-size:2em; 
