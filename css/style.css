@@ -69,6 +69,33 @@
     margin:15
   }
 
+  .pic1 {
+    width: 200px;
+    height: 134px;
+  }
+
+  .pic2 {
+    width: 150px;
+    height: 135px;
+  }
+
+  .pic3 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .row1 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50;
+  }
+
+  .picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .store-mobile {
     width:20vh;
     height: 5.333vh;
@@ -77,11 +104,10 @@
   
   
   .content {
-    height:100vh;
     background-color: #EDEDED;
     justify-content:center;
-    padding-right: 20px;
-    padding-left: 20px; 
+    padding-right: 10vw;
+    padding-left: 10vw; 
     margin-right: auto; 
     margin-left: auto;
     padding-top:30;
@@ -94,6 +120,59 @@
     font-family: 'Nunito';
     font-weight: bold;
     text-align: center;
+  }
+
+  .oui {
+    color:#D2404D; 
+    font-size:20em; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .title-big-texte {
+    color:#D2404D; 
+    font-size:2em; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: left;
+  }
+
+  
+  .title-texte {
+    color:#D2404D; 
+    font-size:1.2em; 
+    margin:0;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .texte {
+    color: black; 
+    font-size:1em; 
+    margin:0;
+    font-family: 'Nunito';
+    text-align: left;
+  }
+
+  .half-size {
+    width: 40vw;
+    align-items: center;
+  }
+
+  .half-size-side {
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .size {
+    display:flex;
+    flex-direction: row;
   }
 
   .store-logos {
