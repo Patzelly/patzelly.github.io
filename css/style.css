@@ -46,7 +46,7 @@
 
   .banner {
     height:88vh;
-    background: linear-gradient(180deg, #D2404D 0%, #BA1F2C 62.98%, #AD0E1C 80.66%, #990815 100%);
+    background:linear-gradient(180deg, #D2404D 0%, #CF3D4A 32.78%, #C43340 62.98%, #B8303C 80.66%, #AB2C38 100%);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
