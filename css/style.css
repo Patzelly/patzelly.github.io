@@ -17,6 +17,16 @@
     margin:0;
     font-family: 'Pacifico';
     font-weight: bolder;
+    text-decoration: none,
+  }
+
+  .navbar-title :hover {
+    color:white; 
+    font-size:30; 
+    margin:0;
+    font-family: 'Pacifico';
+    font-weight: bolder;
+    text-decoration: none,
   }
 
   .banner-title {
