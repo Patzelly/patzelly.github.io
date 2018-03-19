@@ -80,18 +80,18 @@
   }
 
   .pic1 {
-    width: 200px;
-    height: 134px;
+    width: 150px;
+    height: 141px;
   }
 
   .pic2 {
     width: 150px;
-    height: 135px;
+    height: 123px;
   }
 
   .pic3 {
     width: 150px;
-    height: 150px;
+    height: 161px;
   }
 
   .row1 {
@@ -134,7 +134,7 @@
 
   .oui {
     color:#D2404D; 
-    font-size:20em; 
+    font-size:17em; 
     margin:0;
     font-family: 'Nunito';
     font-weight: bold;
@@ -152,8 +152,9 @@
 
   .title-big-texte {
     color:#D2404D; 
-    font-size:2em; 
+    font-size:4em; 
     margin:0;
+    padding-bottom:20;
     font-family: 'Nunito';
     font-weight: bold;
     text-align: left;
@@ -269,7 +270,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    height: 70px;
     padding: 0px 50px;
     color:white;
   }
