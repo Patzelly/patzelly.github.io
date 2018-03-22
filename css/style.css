@@ -95,6 +95,7 @@
   }
 
   .row1 {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50;
@@ -114,7 +115,7 @@
   
   
   .content {
-    background-color: #EDEDED;
+    background-image: url("../assets/background.png");
     justify-content:center;
     padding-right: 10vw;
     padding-left: 10vw; 
