@@ -101,6 +101,19 @@
     margin-bottom: 50;
   }
 
+  .row-mobile {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picture-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40;
+  }
+
+
   .picture {
     display: flex;
     justify-content: center;
@@ -144,7 +157,7 @@
 
   .oui-mobile {
     color:#D2404D; 
-    font-size:10em; 
+    font-size:8em; 
     margin:0;
     font-family: 'Nunito';
     font-weight: bold;
