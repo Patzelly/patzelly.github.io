@@ -31,6 +31,7 @@
         'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '2100545490193267');
         fbq('track', 'PageView');
+        fbq('track', 'AddToCart');
       </script>
       <noscript><img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=2100545490193267&ev=PageView&noscript=1"
@@ -58,7 +59,7 @@
         <div>
             <p class="banner-title">Rencontre les <br> participants de tes <br> évènements.</p>
             <div class="store-logos">
-              <a href="https://play.google.com/store/apps/details?id=com.dately&hl=fr" ><img class="store" src="assets/android.png" alt=""></a>
+              <a id="AndroidStore" href="https://play.google.com/store/apps/details?id=com.dately&hl=fr" ><img class="store" src="assets/android.png" alt=""></a>
               <a href="https://itunes.apple.com/fr/app/dately/id1353082383" ><img class="store" src="assets/ios.png" alt=""></a>
             </div>
         </div>
@@ -69,7 +70,7 @@
             <img src="assets/phones.png" style="height:40vh; width:32vh; justify-content:center" class="hidden-lg ">
                 <p class="banner-title-mobile">Rencontre les <br> participants de tes <br> évènements.</p>
                 <div class="store-logos">
-                  <a href="https://play.google.com/store/apps/details?id=com.dately&hl=fr" ><img class="store-mobile" src="assets/android.png" alt=""></a>
+                  <a id="AndroidStore" href="https://play.google.com/store/apps/details?id=com.dately&hl=fr" ><img class="store-mobile" src="assets/android.png" alt=""></a>
                   <a href="https://itunes.apple.com/fr/app/dately/id1353082383"><img class="store-mobile" src="assets/ios.png" alt=""></a>
                 </div>
             </div>
@@ -175,6 +176,18 @@
         </div>
       </div>
       
+      <script type="text/javascript">
+        var button = document.getElementById('AndroidStore');
+        button.addEventListener(
+          'click', 
+          function() { 
+            fbq('track', 'AddToCart', {
+              content_name: 'Android', 
+            });          
+          },
+          false
+        );
+      </script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     </body>
