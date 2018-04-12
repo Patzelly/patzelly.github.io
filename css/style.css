@@ -148,19 +148,19 @@
 
   .oui {
     color:#D2404D; 
-    font-size:17em; 
+    font-size:3em; 
     margin:0;
+    padding:20;
     font-family: 'Nunito';
-    font-weight: bold;
     text-align: center;
   }
 
   .oui-mobile {
     color:#D2404D; 
-    font-size:8em; 
+    font-size:3em; 
     margin:0;
+    padding:20;
     font-family: 'Nunito';
-    font-weight: bold;
     text-align: center;
   }
 
