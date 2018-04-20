@@ -337,7 +337,7 @@
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-family: 'Nunito';
-    text-align: left;
+    text-align: center;
   }
 
   .banner-concours-mobile {
@@ -374,5 +374,5 @@
     font-size: 1em;
     color: rgb(255, 255, 255);
     font-family: 'Nunito';
-    text-align: left;
+    text-align: center;
   }
