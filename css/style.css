@@ -41,10 +41,11 @@
 
   .banner-title-mobile {
     color:#003B80;
-    font-size:1.2em; 
+    font-size:1em; 
     font-family: 'Nunito';
     font-weight: bolder;
-    font-style: italic;
+    text-align: center;
+    padding:5px;
   }
   .banner-mobile {
     color:white; 
@@ -122,8 +123,8 @@
   }
 
   .store-mobile {
-    width:20vh;
-    height: 5.333vh;
+    width:auto;
+    height: 6.5vh;
     margin:15
   }
   
