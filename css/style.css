@@ -129,8 +129,13 @@
   }
 
   .pic1 {
-    width: 150px;
-    height: 141px;
+    width: auto;
+    height: 700px;
+  }
+
+  .pic1-mobile {
+    width: auto;
+    height: 350px;
   }
 
   .pic2 {
@@ -232,19 +237,28 @@
   
   .title-texte {
     color:#000000; 
-    font-size:1.2em; 
-    margin:0;
-    font-family: 'Nunito';
+    font-size:2em; 
+    font-family: 'Inter';
     font-weight: bold;
     text-align: left;
+  }
+
+  .title-subtexte {
+    color:#000000; 
+    font-size:1.5em; 
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: left;
+    margin-top:12px;
   }
 
   .texte {
     color: black; 
     font-size:1em; 
     margin:0;
-    font-family: 'Nunito';
+    font-family: 'Inter';
     text-align: left;
+    margin-bottom: 20px
   }
 
   .half-size {
