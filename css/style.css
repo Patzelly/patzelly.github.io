@@ -37,6 +37,16 @@
     padding:20px;
   }
 
+  .article-title {
+    color:  #000000;
+    font-size:3em; 
+    margin:0;
+    font-family: 'Inter';
+    font-weight: bolder;
+    text-align: center;
+    padding:40px;
+  }
+
   .banner-subtitle {
     color:  #000000;
     font-size:2em; 
@@ -252,6 +262,15 @@
     margin-top:12px;
   }
 
+  .article {
+    margin:12px
+  }
+
+  .article-logo {
+    height:120px;
+    width:auto;
+    padding-bottom:12px;
+  }
   .texte {
     color: black; 
     font-size:1em; 
