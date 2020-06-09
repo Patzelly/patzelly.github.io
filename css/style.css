@@ -90,6 +90,7 @@
   .hero-ratings {
     display: flex;
   }
+
   
   .hero-ratings .trust-info {
     color: #535659;
@@ -179,6 +180,13 @@
     width:auto;
     height: 6.5vh;
     margin:15
+  }
+
+  .store-mobile-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
   
   
