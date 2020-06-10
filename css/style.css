@@ -125,14 +125,15 @@
 
 .hero-ratings .rating-stars {
     display: flex;
-    list-style: none
+    list-style: none;
+    margin-left: -15px;
 }
 
-.hero-ratings .rating-stars li {
+.hero-ratings .rating-stars i {
     color: #fa8231;
 }
 
-.hero-ratings .rating-stars li:last-child {
+.hero-ratings .rating-stars i:last-child {
     color: #e5e5e5;
 }
 
