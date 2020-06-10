@@ -347,7 +347,7 @@
 /* Navbar link */
 
 .navbar-wagon-link {
-    color: #616668;
+    color: black;
     font-size: 14px;
 }
 
@@ -368,7 +368,7 @@
 .navbar-wagon-dropdown-menu li>a {
     transition: color 0.3s ease;
     font-weight: lighter !important;
-    color: #999999 !important;
+    color: black !important;
     font-size: 15px !important;
     line-height: 22px !important;
 }
