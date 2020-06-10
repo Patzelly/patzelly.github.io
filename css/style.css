@@ -267,7 +267,7 @@
   }
 
   .article {
-    margin:12px
+    margin:12px;
   }
 
   .article-logo {
@@ -281,7 +281,7 @@
     margin:0;
     font-family: 'Inter';
     text-align: left;
-    margin-bottom: 20px
+    margin-bottom: 12px
   }
 
   .half-size {
