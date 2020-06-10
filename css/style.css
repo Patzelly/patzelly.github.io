@@ -30,7 +30,7 @@
 
 .banner-title {
     color: #000000;
-    font-size: 4em;
+    font-size: 40px;
     margin: 0;
     font-family: 'Inter';
     font-weight: bolder;
@@ -40,7 +40,7 @@
 
 .article-title {
     color: #000000;
-    font-size: 3em;
+    font-size: 25px;
     margin: 0;
     font-family: 'Inter';
     font-weight: bolder;
@@ -137,8 +137,8 @@
 }
 
 .store {
-    width: 37vh;
-    height: 8vh;
+    width: auto;
+    height: 7vh;
     margin: 15
 }
 
