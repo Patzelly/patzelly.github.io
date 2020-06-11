@@ -45,6 +45,17 @@
     font-family: 'Inter';
     font-weight: bolder;
     text-align: center;
+    padding: 40px;
+    padding-top: 60px;
+}
+
+.article-title-mobile {
+    color: #000000;
+    font-size: 25px;
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: bolder;
+    text-align: center;
     padding-top: 60px;
 }
 
