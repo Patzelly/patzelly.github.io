@@ -49,6 +49,31 @@
     padding-top: 60px;
 }
 
+.etude-title {
+    color: #000000;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    text-align: left;
+}
+
+.etude-text {
+    color: #000000;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Inter';
+    text-align: left;
+}
+
+.infography {
+    width: 65%;
+    align-self: center;
+    justify-content: center;
+}
+
 .article-title-mobile {
     color: #000000;
     font-size: 25px;
