@@ -68,6 +68,40 @@
     text-align: left;
 }
 
+.download-text {
+    color: #000000;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Nunito';
+    font-weight: 'bolder';
+    text-align: center;
+    padding: 6px;
+}
+
+.download-store-mobile {
+    width: auto;
+    height: 6.5vh;
+    margin: 15;
+    align-self: center
+}
+
+.download-close {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+.download {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+}
+
 .infography {
     width: 65%;
     align-self: center;

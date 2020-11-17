@@ -3,6 +3,45 @@
 <head>
     <meta charset="utf-8">
     <title>Turn Up - Rencontres musicales</title>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            showFunction()
+        });
+
+        function getMobileOperatingSystem() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Windows Phone must come first because its UA also contains "Android"
+            if (/windows phone/i.test(userAgent)) {
+                document.getElementById("appear").style.display = "flex";
+                document.getElementById("android").style.display = "flex";
+
+            }
+
+            if (/android/i.test(userAgent)) {
+                document.getElementById("appear").style.display = "flex";
+                document.getElementById("android").style.display = "flex";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                document.getElementById("appear").style.display = "flex";
+                document.getElementById("iOS").style.display = "flex";
+            }
+
+            return "unknown";
+        }
+
+        function showFunction() {
+            if (document.body.scrollTop > 500) {
+                getMobileOperatingSystem()
+            }
+        }
+
+        function closeFunction() {
+            document.getElementById("appear").style.display = "none";
+        }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -110,6 +149,15 @@
             </p>
             <br>
         </div>
+    </div>
+
+    <div id="appear" class="hidden-md hidden-lg download">
+        <p onclick="closeFunction()" id="close" class="download-close">X</p>
+        <p class="download-text" style=>
+            Télécharge Turn Up, l'application de rencontre musicale !
+        </p>
+        <a id="android" style="justify-content:center; display:none" id="AndroidStore" href="https://play.google.com/store/apps/details?id=com.dately&hl=fr"><img class="download-store-mobile" src="assets/android.png" alt=""></a>
+        <a id="iOS" style="justify-content:center; display:none" href="https://apps.apple.com/fr/app/turn-up/id1353082383"><img class="store-mobile" src="assets/ios.png" alt=""></a>
     </div>
     <div class="footer">
         <div class="footer-links">
