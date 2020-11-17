@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Turn Up - Rencontres musicales</title>
     <script type="text/javascript">
+        var executed = false;
+
         window.addEventListener("scroll", function() {
             showFunction()
         });
@@ -12,19 +14,19 @@
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
             // Windows Phone must come first because its UA also contains "Android"
-            if (/windows phone/i.test(userAgent)) {
+            if (/windows phone/i.test(userAgent) && executed) {
                 document.getElementById("appear").style.display = "flex";
                 document.getElementById("android").style.display = "flex";
 
             }
 
-            if (/android/i.test(userAgent)) {
+            if (/android/i.test(userAgent) && executed) {
                 document.getElementById("appear").style.display = "flex";
                 document.getElementById("android").style.display = "flex";
             }
 
             // iOS detection from: http://stackoverflow.com/a/9039885/177710
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream && executed) {
                 document.getElementById("appear").style.display = "flex";
                 document.getElementById("iOS").style.display = "flex";
             }
@@ -33,7 +35,8 @@
         }
 
         function showFunction() {
-            if (document.body.scrollTop > 500) {
+            if (document.body.scrollTop > 500 && !executed) {
+                executed = true
                 getMobileOperatingSystem()
             }
         }
