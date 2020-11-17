@@ -74,6 +74,12 @@
     justify-content: center;
 }
 
+.infography-mobile {
+    width: 95%;
+    align-self: center;
+    justify-content: center;
+}
+
 .article-title-mobile {
     color: #000000;
     font-size: 25px;
